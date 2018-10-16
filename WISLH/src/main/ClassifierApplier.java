@@ -19,7 +19,9 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 public class ClassifierApplier implements Runnable{
 
-	public final static String[] clasSpec = {"1-NN","3-NN","5-NN","9-NN","J48","NaiveBayes","ZeroR","HoeffdingTree","DecisionTable"} ;
+	public final static String[] clasSpec = {"1-NN","3-NN","5-NN","9-NN",
+			"1-NN-dist","3-NN-dist","5-NN-dist","9-NN-dist",
+			"J48","NaiveBayes","ZeroR","HoeffdingTree","DecisionTable"} ;
 	Instances inst;
 	Evaluation[] eval;
 	Classifier[] clas;
@@ -53,7 +55,7 @@ public class ClassifierApplier implements Runnable{
 		this.randSeed = randSeed;
 		this.inst = inst;
 		
-		this.clas = new Classifier[9];
+		this.clas = new Classifier[13];
 		
 		IBk ibk = new IBk();
 		try {
@@ -68,17 +70,28 @@ public class ClassifierApplier implements Runnable{
 			ibk = new IBk();
 			ibk.setOptions(new String[] {"-K" , "9"});
 			this.clas[3] = ibk;
+			ibk.setOptions(new String[] {"-K" , "1" , "-I"});
+			this.clas[4] = ibk;
+			ibk = new IBk();
+			ibk.setOptions(new String[] {"-K" , "3" , "-I"});
+			this.clas[5] = ibk;
+			ibk = new IBk();
+			ibk.setOptions(new String[] {"-K" , "5" , "-I"});
+			this.clas[6] = ibk;
+			ibk = new IBk();
+			ibk.setOptions(new String[] {"-K" , "9" , "-I"});
+			this.clas[7] = ibk;
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
 		
-		this.clas[4] = new J48();
-		this.clas[5] = new NaiveBayes();
-		this.clas[6] = new ZeroR();
-		this.clas[7] = new HoeffdingTree();
-		this.clas[8] = new DecisionTable();
+		this.clas[8] = new J48();
+		this.clas[9] = new NaiveBayes();
+		this.clas[10] = new ZeroR();
+		this.clas[11] = new HoeffdingTree();
+		this.clas[12] = new DecisionTable();
 		
 		this.eval = new Evaluation[clas.length];
 		
@@ -122,6 +135,11 @@ public class ClassifierApplier implements Runnable{
 	
 	public static void main(String[] args) {
 		
+		if (args.length != 1) {
+			System.out.println("Wrong arg count, expected 1 argument got " + args.length);
+			System.out.println("Usage: ClassifierApplier arff_file");
+			System.exit(1);
+		}
 		String sourceArffStr = args[0];
 
 		File sourceArff = new File(sourceArffStr);

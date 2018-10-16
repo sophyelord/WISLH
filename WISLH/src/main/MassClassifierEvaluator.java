@@ -14,6 +14,12 @@ public class MassClassifierEvaluator {
 
 	public static void main(String[] args) {
 		
+		if (args.length < 3) {
+			System.out.println("Wrong arg count, expected at least 3 arguments got " + args.length);
+			System.out.println("Usage: MassClassifierEvaluator result_file fold_count fold_random_seed [arff_dir , class_index]");
+			System.exit(1);
+		}
+		
 		
 		File resultFile = new File(args[0]);
 		PrintWriter pw = null;
@@ -56,21 +62,24 @@ public class MassClassifierEvaluator {
 			
 		}
 		
+		pw.println("Dataset Classifier Statistic");
 		for (int i = 0 ; i < ths.length ; i++) {
 			try {
 				ths[i].join();
 				Evaluation[] evals = ca[i].getEvaluations();
 				
-				pw.println("DATASET: " + args[i*2+3]);
-				
 				for (int j = 0 ; j < evals.length ; j++) {
-					pw.println();
-					pw.println("Classifier: " + ca[i].clasSpec[j].toString());
-					pw.println(evals[j].toSummaryString());
+					
+					String[] splitend = args[i*2+3].split("/");
+					String splited = splitend[splitend.length-1].split("\\.")[0];
+					
+					pw.print("\"" + splited + "\"");
+					pw.print(" \"");
+					pw.print(ca[i].clasSpec[j].toString());
+					pw.print("\" ");
+					pw.print(evals[j].pctCorrect());
+					pw.print("\n");
 				}
-				
-				pw.println();
-				pw.println();
 				
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block

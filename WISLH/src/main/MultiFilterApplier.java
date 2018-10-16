@@ -12,6 +12,12 @@ public class MultiFilterApplier {
 
 	public static void main(String[] args) {
 		
+		if (args.length < 3) {
+			System.out.println("Wrong arg count, expected at least 3 arguments got " + args.length);
+			System.out.println("Usage: MultiFilterApplier dataset_dir arff_dir source_arff [image_dir]");
+			System.exit(1);
+		}
+		
 		String datasetDir = args[0];
 		String arffDir = args[1];
 		String sourceArffDir = args[2];

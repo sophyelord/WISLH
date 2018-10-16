@@ -121,6 +121,12 @@ public class FilterApplier implements Runnable{
 	
 	public static void main(String[] args) {
 		
+		if (args.length != 2) {
+			System.out.println("Wrong arg count, expected 2 argument got " + args.length);
+			System.out.println("Usage: FilterApplier image_dir source_arff_dir");
+			System.exit(1);
+		}
+		
 		String imgDirStr = args[0];
 		String sourceArffStr = args[1];
 		//String arffDirStr = args[2];

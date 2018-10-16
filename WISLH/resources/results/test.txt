@@ -1,1998 +1,235 @@
-DATASET: resources/ARFF/bppfcharcoal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1406               58.6811 %
-Incorrectly Classified Instances       990               41.3189 %
-Kappa statistic                          0.4991
-Mean absolute error                      0.044 
-Root mean squared error                  0.2076
-Relative absolute error                 49.6853 %
-Root relative squared error             98.7514 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1379               57.5543 %
-Incorrectly Classified Instances      1017               42.4457 %
-Kappa statistic                          0.4803
-Mean absolute error                      0.0466
-Root mean squared error                  0.1769
-Relative absolute error                 52.6483 %
-Root relative squared error             84.1064 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1422               59.3489 %
-Incorrectly Classified Instances       974               40.6511 %
-Kappa statistic                          0.4972
-Mean absolute error                      0.0482
-Root mean squared error                  0.1704
-Relative absolute error                 54.4043 %
-Root relative squared error             81.0204 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1420               59.2654 %
-Incorrectly Classified Instances       976               40.7346 %
-Kappa statistic                          0.4915
-Mean absolute error                      0.0508
-Root mean squared error                  0.1678
-Relative absolute error                 57.4007 %
-Root relative squared error             79.7885 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1312               54.7579 %
-Incorrectly Classified Instances      1084               45.2421 %
-Kappa statistic                          0.4575
-Mean absolute error                      0.051 
-Root mean squared error                  0.2029
-Relative absolute error                 57.5618 %
-Root relative squared error             96.4966 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1291               53.8815 %
-Incorrectly Classified Instances      1105               46.1185 %
-Kappa statistic                          0.4641
-Mean absolute error                      0.0485
-Root mean squared error                  0.2153
-Relative absolute error                 54.7794 %
-Root relative squared error            102.3768 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         749               31.2604 %
-Incorrectly Classified Instances      1647               68.7396 %
-Kappa statistic                          0.1808
-Mean absolute error                      0.0779
-Root mean squared error                  0.2538
-Relative absolute error                 88.0338 %
-Root relative squared error            120.7071 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1230               51.3356 %
-Incorrectly Classified Instances      1166               48.6644 %
-Kappa statistic                          0.3906
-Mean absolute error                      0.0779
-Root mean squared error                  0.1907
-Relative absolute error                 87.9822 %
-Root relative squared error             90.7057 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/bppfedge.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1412               58.9316 %
-Incorrectly Classified Instances       984               41.0684 %
-Kappa statistic                          0.5051
-Mean absolute error                      0.0437
-Root mean squared error                  0.207 
-Relative absolute error                 49.3902 %
-Root relative squared error             98.4517 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1436               59.9332 %
-Incorrectly Classified Instances       960               40.0668 %
-Kappa statistic                          0.5145
-Mean absolute error                      0.0454
-Root mean squared error                  0.1738
-Relative absolute error                 51.2958 %
-Root relative squared error             82.6537 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1477               61.6444 %
-Incorrectly Classified Instances       919               38.3556 %
-Kappa statistic                          0.5315
-Mean absolute error                      0.0468
-Root mean squared error                  0.1664
-Relative absolute error                 52.8191 %
-Root relative squared error             79.115  %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1475               61.5609 %
-Incorrectly Classified Instances       921               38.4391 %
-Kappa statistic                          0.5263
-Mean absolute error                      0.0483
-Root mean squared error                  0.163 
-Relative absolute error                 54.5417 %
-Root relative squared error             77.4988 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1332               55.5927 %
-Incorrectly Classified Instances      1064               44.4073 %
-Kappa statistic                          0.4703
-Mean absolute error                      0.0495
-Root mean squared error                  0.1997
-Relative absolute error                 55.9358 %
-Root relative squared error             94.9515 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1269               52.9633 %
-Incorrectly Classified Instances      1127               47.0367 %
-Kappa statistic                          0.4558
-Mean absolute error                      0.0495
-Root mean squared error                  0.2185
-Relative absolute error                 55.8784 %
-Root relative squared error            103.8894 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1259               52.5459 %
-Incorrectly Classified Instances      1137               47.4541 %
-Kappa statistic                          0.4   
-Mean absolute error                      0.0739
-Root mean squared error                  0.1852
-Relative absolute error                 83.4345 %
-Root relative squared error             88.0628 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/bppfequalize.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1440               60.1002 %
-Incorrectly Classified Instances       956               39.8998 %
-Kappa statistic                          0.5186
-Mean absolute error                      0.0425
-Root mean squared error                  0.2041
-Relative absolute error                 48.0128 %
-Root relative squared error             97.041  %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1418               59.182  %
-Incorrectly Classified Instances       978               40.818  %
-Kappa statistic                          0.5089
-Mean absolute error                      0.0444
-Root mean squared error                  0.1701
-Relative absolute error                 50.1578 %
-Root relative squared error             80.8981 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1455               60.7262 %
-Incorrectly Classified Instances       941               39.2738 %
-Kappa statistic                          0.5211
-Mean absolute error                      0.0464
-Root mean squared error                  0.1645
-Relative absolute error                 52.3633 %
-Root relative squared error             78.2355 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1496               62.4374 %
-Incorrectly Classified Instances       900               37.5626 %
-Kappa statistic                          0.5379
-Mean absolute error                      0.0482
-Root mean squared error                  0.1612
-Relative absolute error                 54.47   %
-Root relative squared error             76.6473 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1238               51.6694 %
-Incorrectly Classified Instances      1158               48.3306 %
-Kappa statistic                          0.422 
-Mean absolute error                      0.0541
-Root mean squared error                  0.2132
-Relative absolute error                 61.0757 %
-Root relative squared error            101.3697 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1297               54.1319 %
-Incorrectly Classified Instances      1099               45.8681 %
-Kappa statistic                          0.4574
-Mean absolute error                      0.0483
-Root mean squared error                  0.2177
-Relative absolute error                 54.5126 %
-Root relative squared error            103.53   %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1201               50.1252 %
-Incorrectly Classified Instances      1195               49.8748 %
-Kappa statistic                          0.4107
-Mean absolute error                      0.0525
-Root mean squared error                  0.2284
-Relative absolute error                 59.3541 %
-Root relative squared error            108.6373 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1289               53.798  %
-Incorrectly Classified Instances      1107               46.202  %
-Kappa statistic                          0.42  
-Mean absolute error                      0.0742
-Root mean squared error                  0.1858
-Relative absolute error                 83.7877 %
-Root relative squared error             88.3792 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/bppfgaussblur.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1292               53.9232 %
-Incorrectly Classified Instances      1104               46.0768 %
-Kappa statistic                          0.4508
-Mean absolute error                      0.049 
-Root mean squared error                  0.2192
-Relative absolute error                 55.3661 %
-Root relative squared error            104.2343 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1306               54.5075 %
-Incorrectly Classified Instances      1090               45.4925 %
-Kappa statistic                          0.4545
-Mean absolute error                      0.0515
-Root mean squared error                  0.1824
-Relative absolute error                 58.2272 %
-Root relative squared error             86.7232 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1344               56.0935 %
-Incorrectly Classified Instances      1052               43.9065 %
-Kappa statistic                          0.4664
-Mean absolute error                      0.0537
-Root mean squared error                  0.1762
-Relative absolute error                 60.6777 %
-Root relative squared error             83.7906 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1373               57.3038 %
-Incorrectly Classified Instances      1023               42.6962 %
-Kappa statistic                          0.474 
-Mean absolute error                      0.0557
-Root mean squared error                  0.172 
-Relative absolute error                 62.8841 %
-Root relative squared error             81.7773 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1213               50.626  %
-Incorrectly Classified Instances      1183               49.374  %
-Kappa statistic                          0.406 
-Mean absolute error                      0.0557
-Root mean squared error                  0.2102
-Relative absolute error                 62.9747 %
-Root relative squared error             99.9831 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1166               48.6644 %
-Incorrectly Classified Instances      1230               51.3356 %
-Kappa statistic                          0.401 
-Mean absolute error                      0.054 
-Root mean squared error                  0.2225
-Relative absolute error                 61.0318 %
-Root relative squared error            105.8362 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1173               48.9566 %
-Incorrectly Classified Instances      1223               51.0434 %
-Kappa statistic                          0.3534
-Mean absolute error                      0.0803
-Root mean squared error                  0.1942
-Relative absolute error                 90.6653 %
-Root relative squared error             92.3645 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/bppforiginal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1545               64.4825 %
-Incorrectly Classified Instances       851               35.5175 %
-Kappa statistic                          0.573 
-Mean absolute error                      0.0379
-Root mean squared error                  0.1925
-Relative absolute error                 42.8475 %
-Root relative squared error             91.5574 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1505               62.813  %
-Incorrectly Classified Instances       891               37.187  %
-Kappa statistic                          0.5508
-Mean absolute error                      0.041 
-Root mean squared error                  0.164 
-Relative absolute error                 46.3477 %
-Root relative squared error             77.9967 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1533               63.9816 %
-Incorrectly Classified Instances       863               36.0184 %
-Kappa statistic                          0.562 
-Mean absolute error                      0.0429
-Root mean squared error                  0.1586
-Relative absolute error                 48.4695 %
-Root relative squared error             75.4406 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1525               63.6477 %
-Incorrectly Classified Instances       871               36.3523 %
-Kappa statistic                          0.5545
-Mean absolute error                      0.0455
-Root mean squared error                  0.157 
-Relative absolute error                 51.4292 %
-Root relative squared error             74.6642 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1241               51.7947 %
-Incorrectly Classified Instances      1155               48.2053 %
-Kappa statistic                          0.4247
-Mean absolute error                      0.0526
-Root mean squared error                  0.2099
-Relative absolute error                 59.4246 %
-Root relative squared error             99.8386 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1342               56.01   %
-Incorrectly Classified Instances      1054               43.99   %
-Kappa statistic                          0.4788
-Mean absolute error                      0.0464
-Root mean squared error                  0.2132
-Relative absolute error                 52.3768 %
-Root relative squared error            101.3936 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1241               51.7947 %
-Incorrectly Classified Instances      1155               48.2053 %
-Kappa statistic                          0.4259
-Mean absolute error                      0.0507
-Root mean squared error                  0.2241
-Relative absolute error                 57.3138 %
-Root relative squared error            106.5675 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1247               52.0451 %
-Incorrectly Classified Instances      1149               47.9549 %
-Kappa statistic                          0.4009
-Mean absolute error                      0.0739
-Root mean squared error                  0.1852
-Relative absolute error                 83.49   %
-Root relative squared error             88.0528 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/bppfsine.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1542               64.3573 %
-Incorrectly Classified Instances       854               35.6427 %
-Kappa statistic                          0.5696
-Mean absolute error                      0.0381
-Root mean squared error                  0.1929
-Relative absolute error                 42.995  %
-Root relative squared error             91.7187 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1514               63.1886 %
-Incorrectly Classified Instances       882               36.8114 %
-Kappa statistic                          0.5514
-Mean absolute error                      0.0421
-Root mean squared error                  0.1666
-Relative absolute error                 47.5847 %
-Root relative squared error             79.223  %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1557               64.9833 %
-Incorrectly Classified Instances       839               35.0167 %
-Kappa statistic                          0.5678
-Mean absolute error                      0.0435
-Root mean squared error                  0.1598
-Relative absolute error                 49.1829 %
-Root relative squared error             76.0202 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1550               64.6912 %
-Incorrectly Classified Instances       846               35.3088 %
-Kappa statistic                          0.56  
-Mean absolute error                      0.0454
-Root mean squared error                  0.1572
-Relative absolute error                 51.3136 %
-Root relative squared error             74.7788 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1276               53.2554 %
-Incorrectly Classified Instances      1120               46.7446 %
-Kappa statistic                          0.4393
-Mean absolute error                      0.0523
-Root mean squared error                  0.2084
-Relative absolute error                 59.0313 %
-Root relative squared error             99.1059 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1434               59.8497 %
-Incorrectly Classified Instances       962               40.1503 %
-Kappa statistic                          0.5261
-Mean absolute error                      0.0423
-Root mean squared error                  0.2028
-Relative absolute error                 47.7983 %
-Root relative squared error             96.458  %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         979               40.8598 %
-Incorrectly Classified Instances      1417               59.1402 %
-Kappa statistic                          0.3328
-Mean absolute error                      0.0622
-Root mean squared error                  0.2484
-Relative absolute error                 70.3033 %
-Root relative squared error            118.1491 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1291               53.8815 %
-Incorrectly Classified Instances      1105               46.1185 %
-Kappa statistic                          0.4254
-Mean absolute error                      0.0702
-Root mean squared error                  0.1803
-Relative absolute error                 79.2436 %
-Root relative squared error             85.7271 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcfcharcoal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1477               61.6444 %
-Incorrectly Classified Instances       919               38.3556 %
-Kappa statistic                          0.5362
-Mean absolute error                      0.0409
-Root mean squared error                  0.2001
-Relative absolute error                 46.1926 %
-Root relative squared error             95.1448 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1498               62.5209 %
-Incorrectly Classified Instances       898               37.4791 %
-Kappa statistic                          0.5437
-Mean absolute error                      0.0421
-Root mean squared error                  0.1692
-Relative absolute error                 47.5682 %
-Root relative squared error             80.4601 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1539               64.2321 %
-Incorrectly Classified Instances       857               35.7679 %
-Kappa statistic                          0.56  
-Mean absolute error                      0.0431
-Root mean squared error                  0.1633
-Relative absolute error                 48.6875 %
-Root relative squared error             77.6403 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1521               63.4808 %
-Incorrectly Classified Instances       875               36.5192 %
-Kappa statistic                          0.5481
-Mean absolute error                      0.0447
-Root mean squared error                  0.1606
-Relative absolute error                 50.5423 %
-Root relative squared error             76.3975 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1316               54.9249 %
-Incorrectly Classified Instances      1080               45.0751 %
-Kappa statistic                          0.4625
-Mean absolute error                      0.0494
-Root mean squared error                  0.2038
-Relative absolute error                 55.7591 %
-Root relative squared error             96.9059 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1149               47.9549 %
-Incorrectly Classified Instances      1247               52.0451 %
-Kappa statistic                          0.3861
-Mean absolute error                      0.055 
-Root mean squared error                  0.2302
-Relative absolute error                 62.1566 %
-Root relative squared error            109.4812 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1022               42.6544 %
-Incorrectly Classified Instances      1374               57.3456 %
-Kappa statistic                          0.3373
-Mean absolute error                      0.0602
-Root mean squared error                  0.2419
-Relative absolute error                 67.9653 %
-Root relative squared error            115.0219 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1320               55.0918 %
-Incorrectly Classified Instances      1076               44.9082 %
-Kappa statistic                          0.442 
-Mean absolute error                      0.0756
-Root mean squared error                  0.1862
-Relative absolute error                 85.4165 %
-Root relative squared error             88.5687 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcfedge.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1547               64.5659 %
-Incorrectly Classified Instances       849               35.4341 %
-Kappa statistic                          0.5694
-Mean absolute error                      0.0378
-Root mean squared error                  0.1923
-Relative absolute error                 42.7491 %
-Root relative squared error             91.4498 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1526               63.6895 %
-Incorrectly Classified Instances       870               36.3105 %
-Kappa statistic                          0.556 
-Mean absolute error                      0.0407
-Root mean squared error                  0.1675
-Relative absolute error                 46.0013 %
-Root relative squared error             79.6386 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1543               64.399  %
-Incorrectly Classified Instances       853               35.601  %
-Kappa statistic                          0.5603
-Mean absolute error                      0.042 
-Root mean squared error                  0.1626
-Relative absolute error                 47.4589 %
-Root relative squared error             77.3154 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1520               63.4391 %
-Incorrectly Classified Instances       876               36.5609 %
-Kappa statistic                          0.5449
-Mean absolute error                      0.044 
-Root mean squared error                  0.161 
-Relative absolute error                 49.716  %
-Root relative squared error             76.5517 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1343               56.0518 %
-Incorrectly Classified Instances      1053               43.9482 %
-Kappa statistic                          0.4754
-Mean absolute error                      0.0484
-Root mean squared error                  0.2021
-Relative absolute error                 54.6559 %
-Root relative squared error             96.1123 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1249               52.1285 %
-Incorrectly Classified Instances      1147               47.8715 %
-Kappa statistic                          0.4322
-Mean absolute error                      0.0504
-Root mean squared error                  0.2216
-Relative absolute error                 56.9819 %
-Root relative squared error            105.3988 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1232               51.419  %
-Incorrectly Classified Instances      1164               48.581  %
-Kappa statistic                          0.4264
-Mean absolute error                      0.0513
-Root mean squared error                  0.2236
-Relative absolute error                 57.9731 %
-Root relative squared error            106.3502 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1341               55.9683 %
-Incorrectly Classified Instances      1055               44.0317 %
-Kappa statistic                          0.4482
-Mean absolute error                      0.0694
-Root mean squared error                  0.1802
-Relative absolute error                 78.3641 %
-Root relative squared error             85.7038 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcfequalize.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1553               64.8164 %
-Incorrectly Classified Instances       843               35.1836 %
-Kappa statistic                          0.5733
-Mean absolute error                      0.0376
-Root mean squared error                  0.1916
-Relative absolute error                 42.4539 %
-Root relative squared error             91.1261 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1523               63.5643 %
-Incorrectly Classified Instances       873               36.4357 %
-Kappa statistic                          0.5556
-Mean absolute error                      0.0401
-Root mean squared error                  0.1646
-Relative absolute error                 45.2921 %
-Root relative squared error             78.3017 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1519               63.3973 %
-Incorrectly Classified Instances       877               36.6027 %
-Kappa statistic                          0.5479
-Mean absolute error                      0.0416
-Root mean squared error                  0.1611
-Relative absolute error                 46.9932 %
-Root relative squared error             76.6275 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1516               63.2721 %
-Incorrectly Classified Instances       880               36.7279 %
-Kappa statistic                          0.5409
-Mean absolute error                      0.0435
-Root mean squared error                  0.1597
-Relative absolute error                 49.088  %
-Root relative squared error             75.9448 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1362               56.8447 %
-Incorrectly Classified Instances      1034               43.1553 %
-Kappa statistic                          0.4853
-Mean absolute error                      0.0471
-Root mean squared error                  0.2008
-Relative absolute error                 53.1743 %
-Root relative squared error             95.4807 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1310               54.6745 %
-Incorrectly Classified Instances      1086               45.3255 %
-Kappa statistic                          0.4604
-Mean absolute error                      0.0479
-Root mean squared error                  0.2155
-Relative absolute error                 54.1097 %
-Root relative squared error            102.4962 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1307               54.5492 %
-Incorrectly Classified Instances      1089               45.4508 %
-Kappa statistic                          0.4596
-Mean absolute error                      0.048 
-Root mean squared error                  0.2159
-Relative absolute error                 54.1793 %
-Root relative squared error            102.6991 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1314               54.8414 %
-Incorrectly Classified Instances      1082               45.1586 %
-Kappa statistic                          0.4288
-Mean absolute error                      0.0724
-Root mean squared error                  0.1831
-Relative absolute error                 81.7486 %
-Root relative squared error             87.086  %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcfgaussblur.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1514               63.1886 %
-Incorrectly Classified Instances       882               36.8114 %
-Kappa statistic                          0.5525
-Mean absolute error                      0.0393
-Root mean squared error                  0.196 
-Relative absolute error                 44.3725 %
-Root relative squared error             93.21   %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1483               61.8948 %
-Incorrectly Classified Instances       913               38.1052 %
-Kappa statistic                          0.5336
-Mean absolute error                      0.0415
-Root mean squared error                  0.1686
-Relative absolute error                 46.9085 %
-Root relative squared error             80.205  %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1507               62.8965 %
-Incorrectly Classified Instances       889               37.1035 %
-Kappa statistic                          0.5414
-Mean absolute error                      0.0431
-Root mean squared error                  0.1646
-Relative absolute error                 48.6875 %
-Root relative squared error             78.2981 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1487               62.0618 %
-Incorrectly Classified Instances       909               37.9382 %
-Kappa statistic                          0.5265
-Mean absolute error                      0.0451
-Root mean squared error                  0.1633
-Relative absolute error                 50.939  %
-Root relative squared error             77.6497 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1346               56.177  %
-Incorrectly Classified Instances      1050               43.823  %
-Kappa statistic                          0.4764
-Mean absolute error                      0.0481
-Root mean squared error                  0.2011
-Relative absolute error                 54.3088 %
-Root relative squared error             95.6596 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1162               48.4975 %
-Incorrectly Classified Instances      1234               51.5025 %
-Kappa statistic                          0.4114
-Mean absolute error                      0.0541
-Root mean squared error                  0.2273
-Relative absolute error                 61.1348 %
-Root relative squared error            108.097  %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1168               48.7479 %
-Incorrectly Classified Instances      1228               51.2521 %
-Kappa statistic                          0.4149
-Mean absolute error                      0.0538
-Root mean squared error                  0.2272
-Relative absolute error                 60.7853 %
-Root relative squared error            108.066  %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1347               56.2187 %
-Incorrectly Classified Instances      1049               43.7813 %
-Kappa statistic                          0.4574
-Mean absolute error                      0.07  
-Root mean squared error                  0.1782
-Relative absolute error                 79.1102 %
-Root relative squared error             84.735  %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcforiginal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1570               65.5259 %
-Incorrectly Classified Instances       826               34.4741 %
-Kappa statistic                          0.5813
-Mean absolute error                      0.0368
-Root mean squared error                  0.1897
-Relative absolute error                 41.6176 %
-Root relative squared error             90.2027 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1545               64.4825 %
-Incorrectly Classified Instances       851               35.5175 %
-Kappa statistic                          0.5648
-Mean absolute error                      0.0392
-Root mean squared error                  0.1635
-Relative absolute error                 44.253  %
-Root relative squared error             77.7703 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1554               64.8581 %
-Incorrectly Classified Instances       842               35.1419 %
-Kappa statistic                          0.5653
-Mean absolute error                      0.0404
-Root mean squared error                  0.1597
-Relative absolute error                 45.6259 %
-Root relative squared error             75.939  %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1525               63.6477 %
-Incorrectly Classified Instances       871               36.3523 %
-Kappa statistic                          0.546 
-Mean absolute error                      0.0426
-Root mean squared error                  0.1595
-Relative absolute error                 48.0689 %
-Root relative squared error             75.8459 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1379               57.5543 %
-Incorrectly Classified Instances      1017               42.4457 %
-Kappa statistic                          0.4917
-Mean absolute error                      0.0461
-Root mean squared error                  0.1983
-Relative absolute error                 52.0518 %
-Root relative squared error             94.2909 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1319               55.0501 %
-Incorrectly Classified Instances      1077               44.9499 %
-Kappa statistic                          0.4613
-Mean absolute error                      0.0474
-Root mean squared error                  0.2143
-Relative absolute error                 53.5802 %
-Root relative squared error            101.8915 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1305               54.4658 %
-Incorrectly Classified Instances      1091               45.5342 %
-Kappa statistic                          0.4545
-Mean absolute error                      0.0478
-Root mean squared error                  0.2152
-Relative absolute error                 54.0064 %
-Root relative squared error            102.3529 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1293               53.9649 %
-Incorrectly Classified Instances      1103               46.0351 %
-Kappa statistic                          0.4238
-Mean absolute error                      0.0707
-Root mean squared error                  0.1801
-Relative absolute error                 79.8896 %
-Root relative squared error             85.6666 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/jcfsine.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1553               64.8164 %
-Incorrectly Classified Instances       843               35.1836 %
-Kappa statistic                          0.5722
-Mean absolute error                      0.0376
-Root mean squared error                  0.1916
-Relative absolute error                 42.4539 %
-Root relative squared error             91.1261 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1504               62.7713 %
-Incorrectly Classified Instances       892               37.2287 %
-Kappa statistic                          0.5444
-Mean absolute error                      0.0407
-Root mean squared error                  0.1663
-Relative absolute error                 45.9189 %
-Root relative squared error             79.0712 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1503               62.7295 %
-Incorrectly Classified Instances       893               37.2705 %
-Kappa statistic                          0.5389
-Mean absolute error                      0.0426
-Root mean squared error                  0.1638
-Relative absolute error                 48.0732 %
-Root relative squared error             77.891  %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1505               62.813  %
-Incorrectly Classified Instances       891               37.187  %
-Kappa statistic                          0.5361
-Mean absolute error                      0.0444
-Root mean squared error                  0.1628
-Relative absolute error                 50.1457 %
-Root relative squared error             77.4024 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1296               54.0902 %
-Incorrectly Classified Instances      1100               45.9098 %
-Kappa statistic                          0.4539
-Mean absolute error                      0.0499
-Root mean squared error                  0.206 
-Relative absolute error                 56.3903 %
-Root relative squared error             97.9802 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1200               50.0835 %
-Incorrectly Classified Instances      1196               49.9165 %
-Kappa statistic                          0.4253
-Mean absolute error                      0.0528
-Root mean squared error                  0.2248
-Relative absolute error                 59.6859 %
-Root relative squared error            106.9108 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances        1189               49.6244 %
-Incorrectly Classified Instances      1207               50.3756 %
-Kappa statistic                          0.4212
-Mean absolute error                      0.053 
-Root mean squared error                  0.2259
-Relative absolute error                 59.8826 %
-Root relative squared error            107.4083 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1284               53.5893 %
-Incorrectly Classified Instances      1112               46.4107 %
-Kappa statistic                          0.4264
-Mean absolute error                      0.0743
-Root mean squared error                  0.1852
-Relative absolute error                 83.92   %
-Root relative squared error             88.0783 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schfcharcoal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances         888               37.0618 %
-Incorrectly Classified Instances      1508               62.9382 %
-Kappa statistic                          0.2441
-Mean absolute error                      0.0665
-Root mean squared error                  0.2561
-Relative absolute error                 75.1404 %
-Root relative squared error            121.8065 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances         920               38.3973 %
-Incorrectly Classified Instances      1476               61.6027 %
-Kappa statistic                          0.2581
-Mean absolute error                      0.0685
-Root mean squared error                  0.2143
-Relative absolute error                 77.3637 %
-Root relative squared error            101.9301 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1045               43.6144 %
-Incorrectly Classified Instances      1351               56.3856 %
-Kappa statistic                          0.2934
-Mean absolute error                      0.0686
-Root mean squared error                  0.2038
-Relative absolute error                 77.4847 %
-Root relative squared error             96.9021 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1123               46.8698 %
-Incorrectly Classified Instances      1273               53.1302 %
-Kappa statistic                          0.3127
-Mean absolute error                      0.0692
-Root mean squared error                  0.1971
-Relative absolute error                 78.13   %
-Root relative squared error             93.7425 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1049               43.7813 %
-Incorrectly Classified Instances      1347               56.2187 %
-Kappa statistic                          0.2928
-Mean absolute error                      0.0708
-Root mean squared error                  0.2123
-Relative absolute error                 80.0108 %
-Root relative squared error            100.9597 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances        1016               42.404  %
-Incorrectly Classified Instances      1380               57.596  %
-Kappa statistic                          0.2456
-Mean absolute error                      0.0721
-Root mean squared error                  0.2061
-Relative absolute error                 81.4082 %
-Root relative squared error             98.0211 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         985               41.1102 %
-Incorrectly Classified Instances      1411               58.8898 %
-Kappa statistic                          0.2094
-Mean absolute error                      0.0753
-Root mean squared error                  0.2066
-Relative absolute error                 85.0224 %
-Root relative squared error             98.2452 %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1107               46.202  %
-Incorrectly Classified Instances      1289               53.798  %
-Kappa statistic                          0.274 
-Mean absolute error                      0.0787
-Root mean squared error                  0.1961
-Relative absolute error                 88.934  %
-Root relative squared error             93.2825 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schfedge.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances         831               34.6828 %
-Incorrectly Classified Instances      1565               65.3172 %
-Kappa statistic                          0.2217
-Mean absolute error                      0.0696
-Root mean squared error                  0.2508
-Relative absolute error                 78.6448 %
-Root relative squared error            119.2622 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances         886               36.9783 %
-Incorrectly Classified Instances      1510               63.0217 %
-Kappa statistic                          0.2377
-Mean absolute error                      0.0704
-Root mean squared error                  0.2143
-Relative absolute error                 79.5392 %
-Root relative squared error            101.9251 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances         944               39.399  %
-Incorrectly Classified Instances      1452               60.601  %
-Kappa statistic                          0.2521
-Mean absolute error                      0.0708
-Root mean squared error                  0.205 
-Relative absolute error                 79.9826 %
-Root relative squared error             97.4902 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1016               42.404  %
-Incorrectly Classified Instances      1380               57.596  %
-Kappa statistic                          0.2757
-Mean absolute error                      0.071 
-Root mean squared error                  0.1982
-Relative absolute error                 80.164  %
-Root relative squared error             94.2574 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances         965               40.2755 %
-Incorrectly Classified Instances      1431               59.7245 %
-Kappa statistic                          0.2496
-Mean absolute error                      0.0728
-Root mean squared error                  0.2115
-Relative absolute error                 82.2557 %
-Root relative squared error            100.5691 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances         836               34.8915 %
-Incorrectly Classified Instances      1560               65.1085 %
-Kappa statistic                          0.1501
-Mean absolute error                      0.0733
-Root mean squared error                  0.2102
-Relative absolute error                 82.8521 %
-Root relative squared error             99.9643 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances         873               36.4357 %
-Incorrectly Classified Instances      1523               63.5643 %
-Kappa statistic                          0.1487
-Mean absolute error                      0.0812
-Root mean squared error                  0.2005
-Relative absolute error                 91.6899 %
-Root relative squared error             95.366  %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schfequalize.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1264               52.7546 %
-Incorrectly Classified Instances      1132               47.2454 %
-Kappa statistic                          0.431 
-Mean absolute error                      0.0502
-Root mean squared error                  0.222 
-Relative absolute error                 56.6951 %
-Root relative squared error            105.5961 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1249               52.1285 %
-Incorrectly Classified Instances      1147               47.8715 %
-Kappa statistic                          0.4236
-Mean absolute error                      0.0532
-Root mean squared error                  0.1879
-Relative absolute error                 60.1365 %
-Root relative squared error             89.3789 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1319               55.0501 %
-Incorrectly Classified Instances      1077               44.9499 %
-Kappa statistic                          0.4482
-Mean absolute error                      0.0549
-Root mean squared error                  0.1812
-Relative absolute error                 61.9657 %
-Root relative squared error             86.1819 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1315               54.8831 %
-Incorrectly Classified Instances      1081               45.1169 %
-Kappa statistic                          0.4382
-Mean absolute error                      0.0571
-Root mean squared error                  0.1778
-Relative absolute error                 64.4887 %
-Root relative squared error             84.5801 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1115               46.5359 %
-Incorrectly Classified Instances      1281               53.4641 %
-Kappa statistic                          0.3602
-Mean absolute error                      0.0588
-Root mean squared error                  0.2184
-Relative absolute error                 66.4591 %
-Root relative squared error            103.8619 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances         549               22.9132 %
-Incorrectly Classified Instances      1847               77.0868 %
-Kappa statistic                          0.1767
-Mean absolute error                      0.0813
-Root mean squared error                  0.2725
-Relative absolute error                 91.8678 %
-Root relative squared error            129.5968 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1156               48.2471 %
-Incorrectly Classified Instances      1240               51.7529 %
-Kappa statistic                          0.3347
-Mean absolute error                      0.0783
-Root mean squared error                  0.1925
-Relative absolute error                 88.4338 %
-Root relative squared error             91.5682 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schfgaussblur.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1231               51.3773 %
-Incorrectly Classified Instances      1165               48.6227 %
-Kappa statistic                          0.4119
-Mean absolute error                      0.0516
-Root mean squared error                  0.2253
-Relative absolute error                 58.2942 %
-Root relative squared error            107.124  %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1223               51.0434 %
-Incorrectly Classified Instances      1173               48.9566 %
-Kappa statistic                          0.4092
-Mean absolute error                      0.0544
-Root mean squared error                  0.1902
-Relative absolute error                 61.4066 %
-Root relative squared error             90.4731 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1267               52.8798 %
-Incorrectly Classified Instances      1129               47.1202 %
-Kappa statistic                          0.417 
-Mean absolute error                      0.056 
-Root mean squared error                  0.184 
-Relative absolute error                 63.2422 %
-Root relative squared error             87.5063 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1286               53.6728 %
-Incorrectly Classified Instances      1110               46.3272 %
-Kappa statistic                          0.4144
-Mean absolute error                      0.0582
-Root mean squared error                  0.1806
-Relative absolute error                 65.7755 %
-Root relative squared error             85.9025 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1201               50.1252 %
-Incorrectly Classified Instances      1195               49.8748 %
-Kappa statistic                          0.4006
-Mean absolute error                      0.0562
-Root mean squared error                  0.2089
-Relative absolute error                 63.5023 %
-Root relative squared error             99.3246 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances         475               19.8247 %
-Incorrectly Classified Instances      1921               80.1753 %
-Kappa statistic                          0.1495
-Mean absolute error                      0.0843
-Root mean squared error                  0.2705
-Relative absolute error                 95.1792 %
-Root relative squared error            128.6336 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1177               49.1235 %
-Incorrectly Classified Instances      1219               50.8765 %
-Kappa statistic                          0.3362
-Mean absolute error                      0.0764
-Root mean squared error                  0.1901
-Relative absolute error                 86.2598 %
-Root relative squared error             90.4175 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schforiginal.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1237               51.6277 %
-Incorrectly Classified Instances      1159               48.3723 %
-Kappa statistic                          0.4168
-Mean absolute error                      0.0513
-Root mean squared error                  0.2246
-Relative absolute error                 57.9741 %
-Root relative squared error            106.8131 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1221               50.9599 %
-Incorrectly Classified Instances      1175               49.0401 %
-Kappa statistic                          0.4083
-Mean absolute error                      0.0544
-Root mean squared error                  0.1911
-Relative absolute error                 61.4642 %
-Root relative squared error             90.8855 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1257               52.4624 %
-Incorrectly Classified Instances      1139               47.5376 %
-Kappa statistic                          0.4127
-Mean absolute error                      0.0559
-Root mean squared error                  0.1836
-Relative absolute error                 63.1332 %
-Root relative squared error             87.2976 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1277               53.2972 %
-Incorrectly Classified Instances      1119               46.7028 %
-Kappa statistic                          0.4129
-Mean absolute error                      0.0577
-Root mean squared error                  0.18  
-Relative absolute error                 65.2175 %
-Root relative squared error             85.5949 %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1222               51.0017 %
-Incorrectly Classified Instances      1174               48.9983 %
-Kappa statistic                          0.4123
-Mean absolute error                      0.0562
-Root mean squared error                  0.2082
-Relative absolute error                 63.5024 %
-Root relative squared error             99.0122 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances         556               23.2053 %
-Incorrectly Classified Instances      1840               76.7947 %
-Kappa statistic                          0.1801
-Mean absolute error                      0.0821
-Root mean squared error                  0.2651
-Relative absolute error                 92.7388 %
-Root relative squared error            126.0688 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1163               48.5392 %
-Incorrectly Classified Instances      1233               51.4608 %
-Kappa statistic                          0.3172
-Mean absolute error                      0.0773
-Root mean squared error                  0.192 
-Relative absolute error                 87.2969 %
-Root relative squared error             91.3324 %
-Total Number of Instances             2396     
-
-
-
-DATASET: resources/ARFF/schfsine.arff
-
-Classifier: 1-NN
-
-Correctly Classified Instances        1248               52.0868 %
-Incorrectly Classified Instances      1148               47.9132 %
-Kappa statistic                          0.4226
-Mean absolute error                      0.0509
-Root mean squared error                  0.2236
-Relative absolute error                 57.4579 %
-Root relative squared error            106.3394 %
-Total Number of Instances             2396     
-
-
-Classifier: 3-NN
-
-Correctly Classified Instances        1254               52.3372 %
-Incorrectly Classified Instances      1142               47.6628 %
-Kappa statistic                          0.4247
-Mean absolute error                      0.0533
-Root mean squared error                  0.189 
-Relative absolute error                 60.252  %
-Root relative squared error             89.8668 %
-Total Number of Instances             2396     
-
-
-Classifier: 5-NN
-
-Correctly Classified Instances        1269               52.9633 %
-Incorrectly Classified Instances      1127               47.0367 %
-Kappa statistic                          0.4194
-Mean absolute error                      0.0555
-Root mean squared error                  0.1831
-Relative absolute error                 62.6675 %
-Root relative squared error             87.0809 %
-Total Number of Instances             2396     
-
-
-Classifier: 9-NN
-
-Correctly Classified Instances        1276               53.2554 %
-Incorrectly Classified Instances      1120               46.7446 %
-Kappa statistic                          0.4121
-Mean absolute error                      0.0574
-Root mean squared error                  0.1796
-Relative absolute error                 64.8705 %
-Root relative squared error             85.398  %
-Total Number of Instances             2396     
-
-
-Classifier: J48
-
-Correctly Classified Instances        1225               51.1269 %
-Incorrectly Classified Instances      1171               48.8731 %
-Kappa statistic                          0.4111
-Mean absolute error                      0.0557
-Root mean squared error                  0.2084
-Relative absolute error                 62.9526 %
-Root relative squared error             99.1266 %
-Total Number of Instances             2396     
-
-
-Classifier: NaiveBayes
-
-Correctly Classified Instances         557               23.2471 %
-Incorrectly Classified Instances      1839               76.7529 %
-Kappa statistic                          0.1803
-Mean absolute error                      0.0816
-Root mean squared error                  0.2653
-Relative absolute error                 92.1954 %
-Root relative squared error            126.1811 %
-Total Number of Instances             2396     
-
-
-Classifier: ZeroR
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: HoeffdingTree
-
-Correctly Classified Instances         800               33.389  %
-Incorrectly Classified Instances      1596               66.611  %
-Kappa statistic                          0     
-Mean absolute error                      0.0885
-Root mean squared error                  0.2103
-Relative absolute error                100      %
-Root relative squared error            100      %
-Total Number of Instances             2396     
-
-
-Classifier: DecisionTable
-
-Correctly Classified Instances        1186               49.4992 %
-Incorrectly Classified Instances      1210               50.5008 %
-Kappa statistic                          0.3412
-Mean absolute error                      0.076 
-Root mean squared error                  0.19  
-Relative absolute error                 85.8395 %
-Root relative squared error             90.3508 %
-Total Number of Instances             2396     
-
-
-
+Dataset Classifier Statistic
+"bppfcharcoal.arff" "1-NN" 58.68113522537563
+"bppfcharcoal.arff" "3-NN" 57.8881469115192
+"bppfcharcoal.arff" "5-NN" 59.01502504173623
+"bppfcharcoal.arff" "9-NN" 58.263772954924875
+"bppfcharcoal.arff" "1-NN-dist" 58.47245409015025
+"bppfcharcoal.arff" "3-NN-dist" 60.642737896494154
+"bppfcharcoal.arff" "5-NN-dist" 61.018363939899835
+"bppfcharcoal.arff" "9-NN-dist" 60.35058430717863
+"bppfcharcoal.arff" "J48" 55.46744574290484
+"bppfcharcoal.arff" "NaiveBayes" 53.42237061769616
+"bppfcharcoal.arff" "ZeroR" 33.3889816360601
+"bppfcharcoal.arff" "HoeffdingTree" 31.719532554257096
+"bppfcharcoal.arff" "DecisionTable" 52.67111853088481
+"bppfedge.arff" "1-NN" 58.848080133555925
+"bppfedge.arff" "3-NN" 59.432387312186975
+"bppfedge.arff" "5-NN" 60.97662771285476
+"bppfedge.arff" "9-NN" 59.0567612687813
+"bppfedge.arff" "1-NN-dist" 59.390651085141904
+"bppfedge.arff" "3-NN-dist" 60.35058430717863
+"bppfedge.arff" "5-NN-dist" 61.602671118530886
+"bppfedge.arff" "9-NN-dist" 61.602671118530886
+"bppfedge.arff" "J48" 55.63439065108514
+"bppfedge.arff" "NaiveBayes" 52.79632721202003
+"bppfedge.arff" "ZeroR" 33.3889816360601
+"bppfedge.arff" "HoeffdingTree" 33.3889816360601
+"bppfedge.arff" "DecisionTable" 53.17195325542571
+"bppfequalize.arff" "1-NN" 60.01669449081803
+"bppfequalize.arff" "3-NN" 59.307178631051755
+"bppfequalize.arff" "5-NN" 61.018363939899835
+"bppfequalize.arff" "9-NN" 59.59933222036728
+"bppfequalize.arff" "1-NN-dist" 60.01669449081803
+"bppfequalize.arff" "3-NN-dist" 61.18530884808013
+"bppfequalize.arff" "5-NN-dist" 62.228714524207014
+"bppfequalize.arff" "9-NN-dist" 63.52253756260434
+"bppfequalize.arff" "J48" 53.17195325542571
+"bppfequalize.arff" "NaiveBayes" 54.13188647746244
+"bppfequalize.arff" "ZeroR" 33.3889816360601
+"bppfequalize.arff" "HoeffdingTree" 51.12687813021703
+"bppfequalize.arff" "DecisionTable" 51.37729549248748
+"bppfgaussblur.arff" "1-NN" 52.96327212020034
+"bppfgaussblur.arff" "3-NN" 54.34056761268781
+"bppfgaussblur.arff" "5-NN" 55.84307178631052
+"bppfgaussblur.arff" "9-NN" 53.33889816360601
+"bppfgaussblur.arff" "1-NN-dist" 53.83973288814691
+"bppfgaussblur.arff" "3-NN-dist" 55.926544240400666
+"bppfgaussblur.arff" "5-NN-dist" 57.26210350584307
+"bppfgaussblur.arff" "9-NN-dist" 58.43071786310517
+"bppfgaussblur.arff" "J48" 50.12520868113523
+"bppfgaussblur.arff" "NaiveBayes" 49.207011686143574
+"bppfgaussblur.arff" "ZeroR" 33.3889816360601
+"bppfgaussblur.arff" "HoeffdingTree" 33.3889816360601
+"bppfgaussblur.arff" "DecisionTable" 50.1669449081803
+"bppforiginal.arff" "1-NN" 63.981636060100165
+"bppforiginal.arff" "3-NN" 63.18864774624374
+"bppforiginal.arff" "5-NN" 64.14858096828047
+"bppforiginal.arff" "9-NN" 64.23205342237061
+"bppforiginal.arff" "1-NN-dist" 64.27378964941569
+"bppforiginal.arff" "3-NN-dist" 65.06677796327212
+"bppforiginal.arff" "5-NN-dist" 65.35893155258765
+"bppforiginal.arff" "9-NN-dist" 64.69115191986644
+"bppforiginal.arff" "J48" 53.29716193656093
+"bppforiginal.arff" "NaiveBayes" 55.75959933222037
+"bppforiginal.arff" "ZeroR" 33.3889816360601
+"bppforiginal.arff" "HoeffdingTree" 51.62771285475793
+"bppforiginal.arff" "DecisionTable" 51.12687813021703
+"bppfsine.arff" "1-NN" 64.31552587646077
+"bppfsine.arff" "3-NN" 63.230383973288816
+"bppfsine.arff" "5-NN" 64.9415692821369
+"bppfsine.arff" "9-NN" 63.73121869782972
+"bppfsine.arff" "1-NN-dist" 64.23205342237061
+"bppfsine.arff" "3-NN-dist" 65.52587646076795
+"bppfsine.arff" "5-NN-dist" 65.73455759599332
+"bppfsine.arff" "9-NN-dist" 65.19198664440735
+"bppfsine.arff" "J48" 53.54757929883139
+"bppfsine.arff" "NaiveBayes" 60.058430717863104
+"bppfsine.arff" "ZeroR" 33.3889816360601
+"bppfsine.arff" "HoeffdingTree" 42.320534223706176
+"bppfsine.arff" "DecisionTable" 54.67445742904842
+"jcfcharcoal.arff" "1-NN" 61.143572621035055
+"jcfcharcoal.arff" "3-NN" 62.89649415692821
+"jcfcharcoal.arff" "5-NN" 63.60601001669449
+"jcfcharcoal.arff" "9-NN" 61.769616026711184
+"jcfcharcoal.arff" "1-NN-dist" 61.97829716193656
+"jcfcharcoal.arff" "3-NN-dist" 63.14691151919867
+"jcfcharcoal.arff" "5-NN-dist" 63.73121869782972
+"jcfcharcoal.arff" "9-NN-dist" 63.981636060100165
+"jcfcharcoal.arff" "J48" 55.884808013355595
+"jcfcharcoal.arff" "NaiveBayes" 47.495826377295494
+"jcfcharcoal.arff" "ZeroR" 33.3889816360601
+"jcfcharcoal.arff" "HoeffdingTree" 42.863105175292155
+"jcfcharcoal.arff" "DecisionTable" 54.257095158597664
+"jcfedge.arff" "1-NN" 64.6076794657763
+"jcfedge.arff" "3-NN" 63.06343906510851
+"jcfedge.arff" "5-NN" 65.1085141903172
+"jcfedge.arff" "9-NN" 64.73288814691152
+"jcfedge.arff" "1-NN-dist" 64.39899833055092
+"jcfedge.arff" "3-NN-dist" 64.85809682804674
+"jcfedge.arff" "5-NN-dist" 65.52587646076795
+"jcfedge.arff" "9-NN-dist" 64.73288814691152
+"jcfedge.arff" "J48" 56.636060100166944
+"jcfedge.arff" "NaiveBayes" 52.587646076794655
+"jcfedge.arff" "ZeroR" 33.3889816360601
+"jcfedge.arff" "HoeffdingTree" 50.959933222036724
+"jcfedge.arff" "DecisionTable" 55.25876460767947
+"jcfequalize.arff" "1-NN" 65.23372287145241
+"jcfequalize.arff" "3-NN" 63.981636060100165
+"jcfequalize.arff" "5-NN" 63.64774624373957
+"jcfequalize.arff" "9-NN" 65.27545909849749
+"jcfequalize.arff" "1-NN-dist" 65.1085141903172
+"jcfequalize.arff" "3-NN-dist" 65.35893155258765
+"jcfequalize.arff" "5-NN-dist" 64.69115191986644
+"jcfequalize.arff" "9-NN-dist" 64.02337228714524
+"jcfequalize.arff" "J48" 55.63439065108514
+"jcfequalize.arff" "NaiveBayes" 54.38230383973289
+"jcfequalize.arff" "ZeroR" 33.3889816360601
+"jcfequalize.arff" "HoeffdingTree" 54.79966611018364
+"jcfequalize.arff" "DecisionTable" 54.59098497495826
+"jcfgaussblur.arff" "1-NN" 62.52086811352254
+"jcfgaussblur.arff" "3-NN" 61.56093489148581
+"jcfgaussblur.arff" "5-NN" 62.771285475792986
+"jcfgaussblur.arff" "9-NN" 62.68781302170284
+"jcfgaussblur.arff" "1-NN-dist" 63.18864774624374
+"jcfgaussblur.arff" "3-NN-dist" 63.48080133555926
+"jcfgaussblur.arff" "5-NN-dist" 63.18864774624374
+"jcfgaussblur.arff" "9-NN-dist" 62.813021702838064
+"jcfgaussblur.arff" "J48" 56.71953255425709
+"jcfgaussblur.arff" "NaiveBayes" 48.87312186978297
+"jcfgaussblur.arff" "ZeroR" 33.3889816360601
+"jcfgaussblur.arff" "HoeffdingTree" 49.165275459098496
+"jcfgaussblur.arff" "DecisionTable" 55.63439065108514
+"jcforiginal.arff" "1-NN" 66.15191986644408
+"jcforiginal.arff" "3-NN" 64.69115191986644
+"jcforiginal.arff" "5-NN" 65.27545909849749
+"jcforiginal.arff" "9-NN" 66.52754590984975
+"jcforiginal.arff" "1-NN-dist" 66.36060100166945
+"jcforiginal.arff" "3-NN-dist" 65.7762938230384
+"jcforiginal.arff" "5-NN-dist" 65.6093489148581
+"jcforiginal.arff" "9-NN-dist" 64.27378964941569
+"jcforiginal.arff" "J48" 57.42904841402337
+"jcforiginal.arff" "NaiveBayes" 54.924874791318864
+"jcforiginal.arff" "ZeroR" 33.3889816360601
+"jcforiginal.arff" "HoeffdingTree" 55.09181969949916
+"jcforiginal.arff" "DecisionTable" 55.425709515859765
+"jcfsine.arff" "1-NN" 64.52420701168614
+"jcfsine.arff" "3-NN" 63.313856427378965
+"jcfsine.arff" "5-NN" 62.97996661101836
+"jcfsine.arff" "9-NN" 64.81636060100168
+"jcfsine.arff" "1-NN-dist" 64.9415692821369
+"jcfsine.arff" "3-NN-dist" 64.9415692821369
+"jcfsine.arff" "5-NN-dist" 64.64941569282136
+"jcfsine.arff" "9-NN-dist" 63.48080133555926
+"jcfsine.arff" "J48" 54.00667779632721
+"jcfsine.arff" "NaiveBayes" 49.624373956594326
+"jcfsine.arff" "ZeroR" 33.3889816360601
+"jcfsine.arff" "HoeffdingTree" 50.292153589315525
+"jcfsine.arff" "DecisionTable" 54.88313856427379
+"schfcharcoal.arff" "1-NN" 36.89482470784641
+"schfcharcoal.arff" "3-NN" 38.43906510851419
+"schfcharcoal.arff" "5-NN" 43.69782971619366
+"schfcharcoal.arff" "9-NN" 36.56093489148581
+"schfcharcoal.arff" "1-NN-dist" 37.31218697829716
+"schfcharcoal.arff" "3-NN-dist" 41.02671118530885
+"schfcharcoal.arff" "5-NN-dist" 45.40901502504174
+"schfcharcoal.arff" "9-NN-dist" 47.24540901502504
+"schfcharcoal.arff" "J48" 42.779632721202006
+"schfcharcoal.arff" "NaiveBayes" 42.278797996661105
+"schfcharcoal.arff" "ZeroR" 33.3889816360601
+"schfcharcoal.arff" "HoeffdingTree" 42.52921535893155
+"schfcharcoal.arff" "DecisionTable" 46.327212020033386
+"schfedge.arff" "1-NN" 34.84974958263773
+"schfedge.arff" "3-NN" 37.56260434056761
+"schfedge.arff" "5-NN" 40.06677796327212
+"schfedge.arff" "9-NN" 34.59933222036728
+"schfedge.arff" "1-NN-dist" 34.76627712854758
+"schfedge.arff" "3-NN-dist" 37.60434056761269
+"schfedge.arff" "5-NN-dist" 39.85809682804675
+"schfedge.arff" "9-NN-dist" 42.19532554257095
+"schfedge.arff" "J48" 40.692821368948245
+"schfedge.arff" "NaiveBayes" 35.18363939899833
+"schfedge.arff" "ZeroR" 33.3889816360601
+"schfedge.arff" "HoeffdingTree" 33.3889816360601
+"schfedge.arff" "DecisionTable" 36.35225375626043
+"schfequalize.arff" "1-NN" 52.25375626043406
+"schfequalize.arff" "3-NN" 52.29549248747913
+"schfequalize.arff" "5-NN" 54.841402337228715
+"schfequalize.arff" "9-NN" 52.37896494156928
+"schfequalize.arff" "1-NN-dist" 52.33722871452421
+"schfequalize.arff" "3-NN-dist" 53.213689482470784
+"schfequalize.arff" "5-NN-dist" 55.383973288814694
+"schfequalize.arff" "9-NN-dist" 56.09348914858097
+"schfequalize.arff" "J48" 48.24707846410684
+"schfequalize.arff" "NaiveBayes" 22.370617696160267
+"schfequalize.arff" "ZeroR" 33.3889816360601
+"schfequalize.arff" "HoeffdingTree" 33.3889816360601
+"schfequalize.arff" "DecisionTable" 47.57929883138564
+"schfgaussblur.arff" "1-NN" 51.75292153589316
+"schfgaussblur.arff" "3-NN" 50.792988313856426
+"schfgaussblur.arff" "5-NN" 52.29549248747913
+"schfgaussblur.arff" "9-NN" 51.21035058430718
+"schfgaussblur.arff" "1-NN-dist" 51.54424040066778
+"schfgaussblur.arff" "3-NN-dist" 53.00500834724541
+"schfgaussblur.arff" "5-NN-dist" 54.88313856427379
+"schfgaussblur.arff" "9-NN-dist" 55.21702838063439
+"schfgaussblur.arff" "J48" 50.292153589315525
+"schfgaussblur.arff" "NaiveBayes" 20.868113522537563
+"schfgaussblur.arff" "ZeroR" 33.3889816360601
+"schfgaussblur.arff" "HoeffdingTree" 33.3889816360601
+"schfgaussblur.arff" "DecisionTable" 49.624373956594326
+"schforiginal.arff" "1-NN" 51.79465776293823
+"schforiginal.arff" "3-NN" 51.1686143572621
+"schforiginal.arff" "5-NN" 52.42070116861436
+"schforiginal.arff" "9-NN" 51.62771285475793
+"schforiginal.arff" "1-NN-dist" 51.669449081803
+"schforiginal.arff" "3-NN-dist" 53.75626043405676
+"schforiginal.arff" "5-NN-dist" 54.63272120200334
+"schforiginal.arff" "9-NN-dist" 54.88313856427379
+"schforiginal.arff" "J48" 51.08514190317195
+"schforiginal.arff" "NaiveBayes" 21.82804674457429
+"schforiginal.arff" "ZeroR" 33.3889816360601
+"schforiginal.arff" "HoeffdingTree" 33.3889816360601
+"schforiginal.arff" "DecisionTable" 49.123539232053425
+"schfsine.arff" "1-NN" 51.419031719532555
+"schfsine.arff" "3-NN" 51.502504173622704
+"schfsine.arff" "5-NN" 53.672787979966614
+"schfsine.arff" "9-NN" 51.87813021702838
+"schfsine.arff" "1-NN-dist" 51.419031719532555
+"schfsine.arff" "3-NN-dist" 53.50584307178631
+"schfsine.arff" "5-NN-dist" 54.34056761268781
+"schfsine.arff" "9-NN-dist" 54.88313856427379
+"schfsine.arff" "J48" 50.5008347245409
+"schfsine.arff" "NaiveBayes" 22.78797996661102
+"schfsine.arff" "ZeroR" 33.3889816360601
+"schfsine.arff" "HoeffdingTree" 33.3889816360601
+"schfsine.arff" "DecisionTable" 50.3338898163606
