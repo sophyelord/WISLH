@@ -5,23 +5,15 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Random;
 
+import weka.classifiers.AbstractClassifier;
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
-import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.lazy.IBk;
-import weka.classifiers.rules.DecisionTable;
-import weka.classifiers.rules.ZeroR;
-import weka.classifiers.trees.HoeffdingTree;
-import weka.classifiers.trees.J48;
-import weka.classifiers.trees.LMT;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
 public class ClassifierApplier implements Runnable{
 
-	public final static String[] clasSpec = {"1-NN","3-NN","5-NN","9-NN",
-			"1-NN-dist","3-NN-dist","5-NN-dist","9-NN-dist",
-			"J48","NaiveBayes","ZeroR","HoeffdingTree","DecisionTable"} ;
 	Instances inst;
 	Evaluation[] eval;
 	Classifier[] clas;
@@ -49,49 +41,13 @@ public class ClassifierApplier implements Runnable{
 		}		
 	}
 	
-	public ClassifierApplier(Instances inst, int folds, Random randSeed) {
+	public ClassifierApplier(Instances inst, int folds, Random randSeed , Classifier[] clas) {
 		
 		this.folds = folds;
 		this.randSeed = randSeed;
 		this.inst = inst;
 		
-		this.clas = new Classifier[13];
-		
-		IBk ibk = new IBk();
-		try {
-			ibk.setOptions(new String[] {"-K" , "1"});
-			this.clas[0] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "3"});
-			this.clas[1] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "5"});
-			this.clas[2] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "9"});
-			this.clas[3] = ibk;
-			ibk.setOptions(new String[] {"-K" , "1" , "-I"});
-			this.clas[4] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "3" , "-I"});
-			this.clas[5] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "5" , "-I"});
-			this.clas[6] = ibk;
-			ibk = new IBk();
-			ibk.setOptions(new String[] {"-K" , "9" , "-I"});
-			this.clas[7] = ibk;
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		this.clas[8] = new J48();
-		this.clas[9] = new NaiveBayes();
-		this.clas[10] = new ZeroR();
-		this.clas[11] = new HoeffdingTree();
-		this.clas[12] = new DecisionTable();
+		this.clas = clas;
 		
 		this.eval = new Evaluation[clas.length];
 		
