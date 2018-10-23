@@ -1,0 +1,11 @@
+6 arff
+
+convert: best convert + 2 (original + edge + equalize)
+filter: best + 1 (jcf + bppf)
+
+classifiers: 
+2 * Bagging (Reptree + J48) 
+2 * AdaBoost (Reptree + NaiveBayes)
+2 * Vote (3sail (5-NN + J48 + NaiveBayes)  + 5sail (1-NN , 3-NN , 5-NN , 9-NN , 13-NN))
+2 * Stacking (Vote * 3meta (RandomForest + J48 + NaiveBayes))
+
