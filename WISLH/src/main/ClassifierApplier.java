@@ -5,7 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Random;
 
-import weka.classifiers.AbstractClassifier;
+
 import weka.classifiers.Classifier;
 import weka.classifiers.Evaluation;
 import weka.classifiers.lazy.IBk;
@@ -87,6 +87,7 @@ public class ClassifierApplier implements Runnable{
 				e.printStackTrace();
 			}
 		}
+		
 	}
 	
 	public static void main(String[] args) {
@@ -117,7 +118,7 @@ public class ClassifierApplier implements Runnable{
 			e1.printStackTrace();
 		}
 		inst.setClassIndex(756);
-		ClassifierApplier ca = new ClassifierApplier(inst, 10, new Random(1));
+		ClassifierApplier ca = new ClassifierApplier(inst, 10, new Random(1),new Classifier[] {new IBk(), new IBk(3)});
 		ca.run();
 		
 		Evaluation[] evals = ca.getEvaluations();
