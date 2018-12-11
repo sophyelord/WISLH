@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
+import weka.attributeSelection.BestFirst;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSink;
 import weka.core.converters.ConverterUtils.DataSource;
@@ -28,7 +29,7 @@ public class FilterApplier implements Runnable{
 		
 		
 		
-		BinaryPatternsPyramidFilter bppf = new BinaryPatternsPyramidFilter();
+		BestFirst bf = new BestFirst();
 		JpegCoefficientFilter jcf = new JpegCoefficientFilter();
 		SimpleColorHistogramFilter schf = new SimpleColorHistogramFilter();
 		
