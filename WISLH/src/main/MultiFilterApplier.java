@@ -75,7 +75,8 @@ public class MultiFilterApplier {
 		CfsSubsetEval cse = new CfsSubsetEval();
 		
 		ASEvaluation[] aseA = {new InfoGainAttributeEval(),new GainRatioAttributeEval(),new CorrelationAttributeEval()};
-		
+		String[] asEstr = {"InfGain","GainRt","Correl"};
+		int[] varSizes = new int[3];
 		
 		for (int i = 2 ; i < args.length ; i++) {
 			
@@ -114,7 +115,7 @@ public class MultiFilterApplier {
 				Instances inst = appliers1[i].getInstances();
 				DataSink.write((new File(arffDir,"BF" + args[i+2] + ".arff")).getAbsolutePath(), nInst);
 				
-				int[] varSizes = new int[3];
+				
 				int n = nInst.numAttributes();
 				int nHalf = n/2;
 				int nNHalf = n + nHalf;
@@ -128,6 +129,7 @@ public class MultiFilterApplier {
 				varSizes[2] = nNHalf;
 				
 				for (int j = 0 ; j < varSizes.length ; j++) {
+					
 					for (int k = 0 ; k < aseA.length ; k++) {
 						Ranker r = new Ranker();
 						r.setNumToSelect(varSizes[j]);
@@ -137,7 +139,9 @@ public class MultiFilterApplier {
 						ASSapplier ass = new ASSapplier(as, inst);
 						appliers2[i*varSizes.length*aseA.length + j*aseA.length + k] = ass;
 						threads2[i*varSizes.length*aseA.length + j*aseA.length + k] = new Thread(ass);
+						threads2[i-2].start();
 					}
+					
 				}
 				
 				
@@ -146,6 +150,21 @@ public class MultiFilterApplier {
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+			}
+		}
+		
+		for (int i = 0 ; i < threads1.length ; i++) {
+			for (int j = 0 ; j < varSizes.length ; j++) {
+				for (int k = 0 ; k <  aseA.length ; k++){
+						try {
+							threads2[i*varSizes.length*aseA.length + j*aseA.length + k].join();
+							Instances nInst = appliers2[i*varSizes.length*aseA.length + j*aseA.length + k].getNewInstances();
+							DataSink.write((new File(arffDir, asEstr[k] + varSizes[j] + args[i+2] + ".arff")).getAbsolutePath(), nInst);
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+				}
 			}
 		}
 		

@@ -28,24 +28,12 @@ public class FilterApplier implements Runnable{
 	public FilterApplier(Instances inst, File imageDir) {
 		
 		
-		
 		BestFirst bf = new BestFirst();
 		JpegCoefficientFilter jcf = new JpegCoefficientFilter();
 		SimpleColorHistogramFilter schf = new SimpleColorHistogramFilter();
 		
 		
-		try {
-			bppf.setOptions(new String[] {"-D", imageDir.getAbsolutePath()});
-			bppf.setInputFormat(inst);
-			jcf.setOptions(new String[] {"-D", imageDir.getAbsolutePath()});
-			jcf.setInputFormat(inst);
-			schf.setOptions(new String[] {"-D", imageDir.getAbsolutePath()});
-			schf.setInputFormat(inst);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
+
 		
 		
 		bppfT = new Thread(new Runnable() {
