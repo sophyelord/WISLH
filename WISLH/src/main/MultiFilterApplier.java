@@ -3,6 +3,7 @@ package main;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.lang.reflect.Constructor;
 
 import weka.attributeSelection.ASEvaluation;
 import weka.attributeSelection.BestFirst;
@@ -71,10 +72,7 @@ public class MultiFilterApplier {
 		ASSapplier[] appliers1 = new ASSapplier[args.length-2];
 		ASSapplier[] appliers2 = new ASSapplier[threads1.length*9];
 		
-		BestFirst bf = new BestFirst();
-		CfsSubsetEval cse = new CfsSubsetEval();
-		
-		ASEvaluation[] aseA = {new InfoGainAttributeEval(),new GainRatioAttributeEval(),new CorrelationAttributeEval()};
+		Class<ASEvaluation>[] aseA = (Class<ASEvaluation>[]) new Class[]{InfoGainAttributeEval.class,GainRatioAttributeEval.class,CorrelationAttributeEval.class};
 		String[] asEstr = {"InfGain","GainRt","Correl"};
 		int[] varSizes = new int[3];
 		
@@ -99,6 +97,8 @@ public class MultiFilterApplier {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
+			BestFirst bf = new BestFirst();
+			CfsSubsetEval cse = new CfsSubsetEval();
 			AttributeSelection as = new AttributeSelection();
 			as.setSearch(bf);
 			as.setEvaluator(cse);
@@ -108,11 +108,21 @@ public class MultiFilterApplier {
 			threads1[i-2].start();
 		}
 		
-		for (int i = 0 ; i < threads1.length ; i++) {
+		for (int i = 0 ; i < threads1.length ; i++)
 			try {
 				threads1[i].join();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
+		for (int i = 0 ; i < threads1.length ; i++) {
+			try {
+				
 				Instances nInst = appliers1[i].getNewInstances();
 				Instances inst = appliers1[i].getInstances();
+				System.out.println("nInst: "+nInst.numAttributes());
+				System.out.println("inst: "+inst.numAttributes());
 				DataSink.write((new File(arffDir,"BF" + args[i+2] + ".arff")).getAbsolutePath(), nInst);
 				
 				
@@ -135,11 +145,13 @@ public class MultiFilterApplier {
 						r.setNumToSelect(varSizes[j]);
 						AttributeSelection as = new AttributeSelection();
 						as.setSearch(r);
-						as.setEvaluator(aseA[k]);
+						Constructor<ASEvaluation> c = aseA[k].getDeclaredConstructor();
+						ASEvaluation asss = c.newInstance();
+						as.setEvaluator(asss);
 						ASSapplier ass = new ASSapplier(as, inst);
 						appliers2[i*varSizes.length*aseA.length + j*aseA.length + k] = ass;
 						threads2[i*varSizes.length*aseA.length + j*aseA.length + k] = new Thread(ass);
-						threads2[i-2].start();
+						threads2[i*varSizes.length*aseA.length + j*aseA.length + k].start();
 					}
 					
 				}
