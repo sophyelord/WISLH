@@ -52,13 +52,14 @@ public class GreedyWrapper implements Runnable, Distribuible{
 		private Classifier ac;
 		int addBias;
 		
-
+		Random rr;
 		
 		public EvalRunnable( int nAt) {
 			this.nInst = new Instances(insts);
 			this.eval = null;
 			this.sMask = selection;
 			this.addBias = nAt;
+			rr = new Random(randSeed.nextLong());
 			try {
 				this.ac = AbstractClassifier.makeCopy(classifier);
 			} catch (Exception e) {
@@ -89,7 +90,7 @@ public class GreedyWrapper implements Runnable, Distribuible{
 			}
 			
 			try {
-				eval.crossValidateModel(ac,nInst, folds, randSeed);
+				eval.crossValidateModel(ac,nInst, folds, rr);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -123,6 +124,7 @@ public class GreedyWrapper implements Runnable, Distribuible{
 		for (int i = 0 ; i < selection.length ; i++) {
 			atributes.add(i);
 		}
+		
 		
 	}
 	
@@ -331,7 +333,7 @@ public class GreedyWrapper implements Runnable, Distribuible{
 		
 		AbstractClassifier ac = ibk;
 		
-		Random r = new Random(33);
+		Random r = new Random(3);
 		
 		for (int i = 2 ; i < args.length ; i++) {
 			
@@ -355,7 +357,7 @@ public class GreedyWrapper implements Runnable, Distribuible{
 				e1.printStackTrace();
 			}
 			
-			GreedyWrapper gw = new GreedyWrapper(ac, inst, 10, r);
+			GreedyWrapper gw = new GreedyWrapper(ac, inst, 3, r);
 			gw.run();
 			Instances wrpInst = gw.getWrappedInstances();
 			try {
